@@ -1,0 +1,127 @@
+*{margin: 0px;
+	padding: 	0px;
+
+	}
+body{
+	font-family: sans-serif;
+	color: #333;
+}
+.wrapper{
+	width: 960px;
+	margin: 0px auto;
+}
+/*===== MENU =======*/
+.menu ul{
+	list-style-type: none;
+	background: #1f568b;
+	text-align: center;
+}
+.menu ul li{
+	color: #f1f1f1;
+	display: inline-table;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+.menu ul li a{
+	color: #f1f1f1;
+	text-decoration: none;
+	display: block;
+}
+.menu ul li a:hover { 
+	background: #f1f1f1;
+	color: #333;
+}
+.menu ul li > #sub_menu{
+	display: none;
+	position: absolute;
+}
+.menu ul li:hover #sub_menu {
+	display: block;
+}
+
+
+
+/*===== MENU RIGHT=======*/
+
+.menu_right ul{
+	list-style-type: none;
+	text-align: center;
+
+	
+}
+.menu_right ul li {
+	display: inline-table;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+	position: relative;
+}
+.menu_right ul li a{
+	text-decoration: none;
+	display: block;
+}
+.menu_right ul li > #sub_menu_right {
+	display: none;	
+	position: absolute;
+}
+.menu_right ul li:hover > #sub_menu_right{
+	display: block;
+}
+
+
+
+/*===== MENU QC=======*/
+.menu_qc ul{
+	list-style-type: none;
+	text-align: center;
+
+	
+}
+.menu_qc ul li {
+	display: inline-table;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+	position: relative;
+}
+.menu_qc ul li a{
+	text-decoration: none;
+	display: block;
+}
+
+												/*===== MAIN =======*/
+/*===== MAIN MENU=======*/
+.main_menu ul{
+	list-style-type: none;
+	text-align: center;
+
+	
+}
+.main_menu ul li {
+	display: inline-table;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+	position: relative;
+}
+.main_menu ul li a{
+	text-decoration: none;
+	display: block;
+}
+
+
+/*===== MOD TABLE=======*/
+.wrapper_mod{
+	width: 1500px;
+	margin: 0px auto;
+}
+.wrapper_mod tr td{
+
+	float: left;
+	float: top;
+}
